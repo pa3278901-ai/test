@@ -19,10 +19,10 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '21'
-          distribution: 'temurin'
+          distribution: 'temurin
 
       - name: Compile Java Program
         run: javac new.java
 
       - name: Run Java Program
-        run: java new
+        run: javac new.java
